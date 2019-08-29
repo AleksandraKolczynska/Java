@@ -3,31 +3,31 @@ package challenge374;
 import java.util.ArrayList;
 import java.util.List;
 
-public class main {
+public class Main {
+	private static final int MAX_VALUE = 9;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int number2 = 199;
+		int persistenceNumber = 199;
 		int loops = 0;
-		List<Integer> numberlist = new ArrayList();
+		List<Integer> numberList = new ArrayList();
 		do {
 			loops++;
 
-			while (number2 != 0) {
-				numberlist.add(number2 % 10);
-				number2 /= 10;
+			while (persistenceNumber != 0) {
+				numberList.add(persistenceNumber % 10);
+				persistenceNumber /= 10;
 			}
 
-			for (int i = 0; i < numberlist.size();) {
-				number2 = number2 + numberlist.get(i);
-				numberlist.remove(i);
+			for (int i = 0; i < numberList.size();) {
+				persistenceNumber = persistenceNumber + numberList.get(i);
+				numberList.remove(i);
 
 			}
 
-			System.out.println(number2);
+			System.out.println("step: " + loops + " result: " + persistenceNumber);
 
-		} while (number2 > 9);
+		} while (persistenceNumber > MAX_VALUE);
 
-		System.out.println(loops);
+		System.out.println("Number of loops: " + loops);
 	}
 }
