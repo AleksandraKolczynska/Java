@@ -1,7 +1,7 @@
 
-public class dog extends organism implements dogs  {
+public class Dog extends Organism implements Dogs  {
 
-	public dog(int sleppingTime, String kindOfFun, String gender, String name) {
+	public Dog(int sleppingTime, String kindOfFun, String gender, String name) {
 		super(sleppingTime, kindOfFun, gender, name);
 		
 		
