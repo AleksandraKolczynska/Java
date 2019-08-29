@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class listmovie {
+public class Listmovie {
 	List<movie> Listm = new ArrayList();
 
 	public void putListm(Object t) {
