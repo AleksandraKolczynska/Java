@@ -3,11 +3,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Listmovie {
-	List<movie> Listm = new ArrayList();
+public class ListMovie {
+	List<Movie> Listm = new ArrayList();
 
 	public void putListm(Object t) {
-		Listm.add((movie) t);
+		Listm.add((Movie) t);
 
 	}
 
@@ -17,6 +17,6 @@ public class Listmovie {
 	}
 
 	public void sort() {
-		Collections.sort(Listm, new sortmovie());
+		Collections.sort(Listm, new sortMovie());
 	}
 }
