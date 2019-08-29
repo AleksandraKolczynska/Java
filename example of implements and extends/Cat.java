@@ -1,7 +1,7 @@
 
 public class Cat extends Organism implements Cats {
 
-	public cat(int sleppingTime, String kindOfFun, String gender, String name) {
+	public Cat(int sleppingTime, String kindOfFun, String gender, String name) {
 		super(sleppingTime, kindOfFun, gender, name);
 
 	}
