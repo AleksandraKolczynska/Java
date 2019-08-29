@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -22,13 +23,8 @@ public class Main {
 
 	public List<Long> removeZerosFromArray(List<Long> numbers) {
 		System.out.println(numbers);
-		for (int i = 0; i < numbers.size(); i++) {
-
-			if (numbers.get(i) == 0) {
-				numbers.remove(i);
-				i--;
-			}
-		}
+		List<Long> zero = numbers.stream().filter(value -> value == 0).collect(Collectors.toList());
+		numbers.removeAll(zero);
 		return numbers;
 
 	}
@@ -46,10 +42,7 @@ public class Main {
 	public List<Long> checkArrayLength(List<Long> numbers) {
 		long y = numbers.get(0);
 		numbers.remove(0);
-		if (numbers.size() < y) {
-			System.out.println(true);
-		} else
-			System.out.println(false);
+		System.out.println(numbers.size() < y);
 
 		for (int i = 0; i < numbers.size(); i++) {
 			numbers.set(i, (numbers.get(i) - 1));
