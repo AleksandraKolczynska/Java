@@ -1,9 +1,9 @@
 import java.util.Comparator;
 
-public class sortmovie implements Comparator<movie> {
+public class sortMovie implements Comparator<Movie> {
 
 	@Override
-	public int compare(movie a, movie b) {
+	public int compare(Movie a, Movie b) {
 		if(a.price > b.price)
 			return -1;
 		else if (a.price < b.price)
