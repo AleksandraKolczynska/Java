@@ -23,8 +23,7 @@ public class Main {
 
 	public List<Long> removeZerosFromArray(List<Long> numbers) {
 		System.out.println(numbers);
-		List<Long> zero = numbers.stream().filter(value -> value == 0).collect(Collectors.toList());
-		numbers.removeAll(zero);
+		numbers.removeAll(numbers.stream().filter(value -> value == 0).collect(Collectors.toList()));
 		return numbers;
 
 	}
