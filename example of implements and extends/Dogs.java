@@ -1,5 +1,5 @@
 
-public interface Dogs {
+public interface Dogs { 
 String sound = "hau hau";
 String eat = "meat";
 
