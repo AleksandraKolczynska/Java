@@ -1,5 +1,5 @@
 
-public class Organism {
+public class Organism { 
 	int sleppingTime;
 	String kindOfFun;
 	String gender;
