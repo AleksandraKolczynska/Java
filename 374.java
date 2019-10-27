@@ -1,5 +1,5 @@
 
-package challenge374;
+package challenge374; 
 
 import java.util.ArrayList;
 import java.util.List;
