@@ -1,7 +1,7 @@
 package challenge372;
 
 import java.util.Scanner;
-
+ 
 public class Main {
 	private static final char X_LETTER = 'x';
 	private static final char Y_LETTER = 'y';
