@@ -1,4 +1,4 @@
-package challenge377;
+package challenge377; 
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
