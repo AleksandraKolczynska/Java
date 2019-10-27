@@ -1,4 +1,4 @@
-package primenumbers;
+package primenumbers; 
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
