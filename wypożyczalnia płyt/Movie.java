@@ -1,5 +1,5 @@
 
-public class Movie {
+public class Movie { 
 	String title;
 	String director;
 	double price;
