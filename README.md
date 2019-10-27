@@ -1,5 +1,5 @@
 # Java
-Challenge 340 - Write a program that outputs the first recurring character in a string.
+Challenge 340 - Write a program that outputs the first recurring character in a string. 
 
 Challenge 378 - 1. Remove all 0's from the sequence.
 2. If the sequence is now empty (no elements left), stop and return true.
