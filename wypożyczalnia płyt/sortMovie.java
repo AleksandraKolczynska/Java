@@ -9,7 +9,7 @@ public class sortMovie implements Comparator<Movie> {
 		else if (a.price < b.price)
 			return 1;
 		
-		return 0;
+		return 0; 
 	}
 	
 
