@@ -13,12 +13,10 @@ public class Main {
 		List<Integer> numberList = new ArrayList();
 		do {
 			loops++;
-
 			while (persistenceNumber != 0) {
 				numberList.add(persistenceNumber % 10);
 				persistenceNumber /= 10;
 			}
-
 			for (int i = 0; i < numberList.size();) {
 				persistenceNumber = persistenceNumber + numberList.get(i);
 				numberList.remove(i);
