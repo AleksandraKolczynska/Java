@@ -34,6 +34,5 @@ public class Main {
 		} else if (numberOfX < numberOfY) {
 			System.out.println("More y than x");
 		}
-
 	}
 }
