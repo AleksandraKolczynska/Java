@@ -23,7 +23,6 @@ public class Main {
 		System.out.println("only numbers");
 	}
 	}
-
 	public static int notrotate(int smallCratex, int smallCratey, int bigCrateX, int bigCrateY) {
 		int sideA = bigCrateX/smallCratex;
 		int sideB = bigCrateY/smallCratey;
