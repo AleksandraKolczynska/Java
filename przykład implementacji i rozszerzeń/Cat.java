@@ -10,5 +10,4 @@ public class Cat extends Organism implements Cats {
 		return "Name: " + name + " Gender: " + gender + " Kind of fun: " + kindOfFun + " Type of food: " + eat
 				+ " Sound: " + sound + " Slepping time: " + sleppingTime + "h";
 	}
-
 }
