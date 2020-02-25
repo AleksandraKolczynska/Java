@@ -10,6 +10,5 @@ public class Organism {
 		this.kindOfFun = kindOfFun;
 		this.gender = gender;
 		this.name = name;
-
 	}
 }
