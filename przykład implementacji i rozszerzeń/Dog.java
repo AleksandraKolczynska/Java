@@ -12,6 +12,3 @@ public class Dog extends Organism implements Dogs  {
 		return  "Name: " + name + " Gender: " + gender + " Kind of fun: " + kindOfFun + " Type of food: " + eat + " Sound: "+ sound + " Slepping time: " + sleppingTime + "h";
 	}
 	}
-
-	
-
