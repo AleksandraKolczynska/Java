@@ -16,4 +16,3 @@ so in total you can fit 4*3 = 12 boxes in a rectangle.
 Challenge 374 - Calculate the additive persistence of a number.
 
 Challenge 372 - Given a string containing only the characters x and y, find whether there are the same number of xs and ys.
-
